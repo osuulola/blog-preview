@@ -1,0 +1,35 @@
+body {
+    background-color: gold;
+    font-family: 'Figtree';
+    padding: 150px;
+    
+}
+.container {
+    background-color: white;
+    border-radius: 10px;
+    width: 20vw;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 5px 5px black;
+}
+#img {
+    width:20vw;
+    border-radius: 10px;
+}
+button {
+    background-color: gold;
+    border-radius: 5px;    
+}
+h5, p {
+    color:grey
+}
+p{
+    font-size: small;
+}
+.footer{
+    display: flex;
+}
+.footer h5 {
+    color: black;
+    font-size:x-small;
+}
