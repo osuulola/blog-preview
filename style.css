@@ -1,11 +1,11 @@
 body {
-    background-color: gold;
+    background-color:hsl(47, 88%, 63%);
     font-family: 'Figtree';
     padding: 150px;
     
 }
 .container {
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     width: 20vw;
     margin: 0 auto;
@@ -17,13 +17,14 @@ body {
     border-radius: 10px;
 }
 button {
-    background-color: gold;
+    background-color:hsl(47, 88%, 63%);
     border-radius: 5px;    
 }
-h5, p {
-    color:grey
+h5 {
+    color:hsl(0, 0%, 42%);
 }
 p{
+    color:hsl(0, 0%, 7%);
     font-size: small;
 }
 .footer{
@@ -32,4 +33,7 @@ p{
 .footer h5 {
     color: black;
     font-size:x-small;
+}
+.footer img {
+    transform: scale(0.4);
 }
